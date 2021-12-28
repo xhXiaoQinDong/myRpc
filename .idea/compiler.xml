@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rpc-cluster" />
+        <module name="rpc-serialization" />
+        <module name="rpc-consumer" />
+        <module name="rpc-registry" />
+        <module name="rpc-provider" />
+        <module name="rpc-api" />
+        <module name="rpc-remoting" />
+        <module name="rpc-config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="main" target="1.8" />
+      <module name="myRpc" target="1.8" />
+      <module name="remoting" target="1.8" />
+      <module name="rpc-api" target="1.8" />
+      <module name="rpc-cluster" target="1.8" />
+      <module name="rpc-config" target="1.8" />
+      <module name="rpc-consumer" target="1.8" />
+      <module name="rpc-framwork" target="1.8" />
+      <module name="rpc-provider" target="1.8" />
+      <module name="rpc-registry" target="1.8" />
+      <module name="rpc-remoting" target="1.8" />
+      <module name="rpc-serialization" target="1.8" />
+      <module name="rpc-whlee-api" target="1.8" />
+      <module name="rpc-whlee-framwork" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="main" options="-parameters" />
+      <module name="myRpc" options="" />
+      <module name="remoting" options="-parameters" />
+      <module name="rpc-api" options="" />
+      <module name="rpc-cluster" options="" />
+      <module name="rpc-config" options="" />
+      <module name="rpc-consumer" options="" />
+      <module name="rpc-framwork" options="" />
+      <module name="rpc-provider" options="" />
+      <module name="rpc-registry" options="" />
+      <module name="rpc-remoting" options="" />
+      <module name="rpc-serialization" options="" />
+    </option>
+  </component>
+</project>

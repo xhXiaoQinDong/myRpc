@@ -1,0 +1,1 @@
+kryo=com.xlfc.serialization.serializtion.kryo.KryoSerializer
